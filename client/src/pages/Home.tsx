@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowDown, ArrowUp, ArrowUpRight, BrainCircuit, BriefcaseBusiness, CheckCircle2, ChevronRight, ExternalLink, Gauge, Globe2, Linkedin, Mail, Menu, MessageCircle, Network, Sparkles, Target, X, Zap } from "lucide-react";
 
-const profileImage = "/manus-storage/wanderson-viegas-reframed_65517f21.png";
+const profileImage = `${import.meta.env.BASE_URL}wanderson-viegas.png`;
 type Language = "pt" | "en" | "es";
 
 const i18n = {
